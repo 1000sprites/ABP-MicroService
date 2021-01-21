@@ -129,3 +129,4 @@
 # Rider
 *.iml
 **/.idea
+/Gateways/InternalGateway/InternalGateway.Host/bin/Debug/net5.0
