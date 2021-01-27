@@ -130,3 +130,4 @@
 *.iml
 **/.idea
 /Gateways/InternalGateway/InternalGateway.Host/bin/Debug/net5.0
+/MicroServices/Business/Business.Core/obj
