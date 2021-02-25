@@ -41,7 +41,7 @@ export default {
   data() {
     const validatePassword = (rule, value, callback) => {
       if (value.length < 6) {
-        callback(new Error("The password can not be less than 6 digits"));
+        callback(new Error("密码不能少于6位数字"));
       } else {
         callback();
       }
@@ -57,7 +57,7 @@ export default {
       },
       loginRules: {
         username: [
-          { required: true, message: "username is required", trigger: "blur" },
+          { required: true, message: "用户名不能为空", trigger: "blur" },
         ],
         password: [
           { required: true, trigger: "blur", validator: validatePassword },
